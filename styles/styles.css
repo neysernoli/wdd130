@@ -13,14 +13,34 @@ h1 {
   color: teal;
 }
 
-img {
+main img {
   width: 150px;
   height: auto;
   border: 0.5px solid black;
   padding: 2px;
   box-shadow: 0 0 30px gray;
 }
+main {
+  max-width: 840px;
+}
 
-p {
-  padding: 10px;
+aside {
+  width: 20rem; 
+  margin: 1rem;
+  border: 1px solid #00000050 ;
+  padding: 1rem;
+  background-color: #dedcdc;
+  color: rgb(0, 0, 0);
+  text-align:center;
+}
+aside img {
+  width: 200px;
+  height: auto;
+}
+p {padding: 0;}
+
+footer {
+  margin-top: 15px 50px;
+  border-top: 1px solid black;
+  text-align: center;
 }
