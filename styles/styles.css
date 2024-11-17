@@ -18,7 +18,7 @@ main img {
   height: auto;
   border: 0.5px solid black;
   padding: 2px;
-  box-shadow: 0 0 30px gray;
+  box-shadow: 0 0 15px gray;
 }
 main {
   max-width: 840px;
@@ -30,7 +30,7 @@ aside {
   border: 1px solid #00000050 ;
   padding: 1rem;
   background-color: #dedcdc;
-  color: rgb(0, 0, 0);
+  color: #333;
   text-align:center;
 }
 aside img {
@@ -40,7 +40,7 @@ aside img {
 p {padding: 0;}
 
 footer {
-  margin-top: 15px 50px;
+  margin-top: 15px;
   border-top: 1px solid black;
   text-align: center;
 }
