@@ -31,36 +31,40 @@ body {
 }
 .hero article {
   position: absolute;
-  bottom: 250px;
-  top: 250px;
-  left: 100px;
-  right: 100px;
-  background-size: cover;
-  background-attachment: fixed;
+  bottom: 60px;
+  top: 130px;
+  left: 40px;
+  right: 40px;
   background-color: rgba(7, 8, 11, 0.396);
   font-family: "Roboto", sans-serif;
-  padding: 100px;
+  padding: 80px;
   height: auto;
 }
 .hero article img {
   position: relative;
-  width: 200px;
-  bottom: 75px;
-  right: 60px;
+  width: 130px;
+  bottom: 60px;
+  right: 80px;
+  padding: 10px;
   
 }
 .hero article p {
   position: relative;
-  margin-left: 250px;
+  margin-left:0 ;
   bottom: 200px;
-  color: aliceblue;;
+  left: 80px;
+  color: aliceblue;
+  padding: 20px;
 }
 
 section h2 {
   color: var(--secondary-color);
 }
+section img {
+  width: 400px;
+}
 .sociallinks img {
-  width: 50px;
+  width: 20px;
 }
 a {
   text-decoration: none;
