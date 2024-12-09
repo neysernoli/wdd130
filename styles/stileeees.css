@@ -1,0 +1,32 @@
+.hero {
+  position: relative;
+  text-align: center;
+  color: var(--secondary-color);
+  overflow: hidden;
+}
+
+.hero img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.hero h1 {
+  position: absolute;
+  top: 10%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 10px 20px;
+  border-radius: 10px;
+  color: white;
+  font-size: 3rem;
+  max-width: 90%;
+  width: 60%;
+  word-wrap: break-word;
+  display: grid;
+  grid-template-columns: 1fr auto;
+  align-items: center;
+  overflow: hidden;
+  
+}
