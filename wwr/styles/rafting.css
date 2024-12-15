@@ -19,8 +19,8 @@ header {
   background-color: rgba(140, 125, 64, 0.62); 
   max-width: 100%;
   padding: 1rem;
-  display: flex;
-  justify-content: space-between; /* Logo a la izquierda, nav a la derecha */
+  display: grid;
+  grid-template-columns: auto 1fr;
   align-items: center;
 }
 
@@ -80,7 +80,7 @@ nav {
   left: 50%;
   transform: translateX(-50%);
   font-size: 2.5rem;
-  color: white;
+  color: var(--secondary-color);
   text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.8); /* Mejora la legibilidad */
   z-index: 2; /* Asegura que esté sobre la imagen */
 }
@@ -189,10 +189,10 @@ nav {
 }
 
 .history .content img {
-  width: 100%; /* La imagen ocupa el 100% del ancho disponible */
-  height: auto; /* Mantiene la relación de aspecto de la imagen */
-  max-height: 200px; /* Limita la altura máxima de la imagen */
-  object-fit: cover; /* Mantiene la proporción de la imagen, recortando si es necesario */
+  width: 100%; 
+  height: auto; 
+  max-height: 200px;
+  object-fit: cover; 
   border-radius: 20px;
 }
 
@@ -204,7 +204,7 @@ nav {
 }
 @media (max-width: 768px) {
   .history .content img {
-    max-height: 150px;  /* Ajusta la altura según el tamaño de pantalla */
+    max-height: 150px; 
   }
 }
 
@@ -248,16 +248,20 @@ footer {
   background-color: rgba(140, 125, 64, 0.62);
   color: #000000;
   padding: 20px;
-  text-align: center;
+  text-align: right;
+  display: grid;
+  grid-template-columns: 1fr auto;
+
 }
 
 footer .footer p {
   margin-bottom: 10px;
+  text-align: center;
 }
 
 footer .sociallinks {
   display: flex; 
-  justify-content: center;
+  justify-content: flex-end;
   gap: 10px; 
 }
 
