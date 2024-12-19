@@ -296,3 +296,60 @@ footer .sociallinks img:hover {
   }
 }
 
+main {
+  margin: 15px;
+}
+/* Mapa */
+.mapa iframe {
+  max-width: 100%;
+  height: 300px;
+}
+
+/* Sección de empleados */
+.Employeephotos {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr; 
+  margin: 20px;
+}
+.Employee-tittle {
+  margin: 20px;
+}
+
+.empleado {
+  text-align: center;
+}
+
+.empleado img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}
+
+section {
+  margin: 100px 30%;
+}
+/* Estilo del formulario */
+form {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;  
+  align-items: left;
+}
+ 
+
+form label, form input, form textarea {
+  margin-bottom: 10px;
+  display: grid;
+}
+
+button {
+  background-color: #007BFF;
+  color: white;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
