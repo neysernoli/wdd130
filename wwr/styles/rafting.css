@@ -358,7 +358,7 @@ button:hover {
   text-align: center;
 }
 
-section p {
+.cont {
   background-color: rgba(21, 21, 20, 0.147);
   border-radius: 10px;
   max-width: max-content;
