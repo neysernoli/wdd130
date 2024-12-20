@@ -3,44 +3,45 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Rafting Page</title>
+  <title>Home - Novoa Rafting Company</title>
   <link rel="stylesheet" href="styles/rafting.css">
 </head>
 <body>
   <header>
-    <img src="images/logo17_200.png" alt="Logo rafting">
+    <img src="images/logo17_200.png" alt="Logo Rafting">
     <nav>
       <ul class="navigation">
-        <li><a href="https://neysernoli.github.io/wdd130/wwr/about.html" target="_blank" rel="noopener noreferrer">Home</a></li>
+        <li><a href="index.html">Home</a></li>
         <li><a href="aboutus.html">About Us</a></li>
         <li><a href="trips.html">Trips</a></li>
         <li><a href="contact.html">Contact Us</a></li>
       </ul>
     </nav>
   </header>
+
   <main>
     <div class="hero">
       <img src="images/image.webp" alt="People Rafting">
       <h1>Novoa Rafting Company</h1>
-      <article>
-        <h2>About Our Team</h2>
-        <div class="content">
-          <img src="images/employee-rafting.jpg" alt="working employee">
-          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequatur est fuga tenetur, impedit esse quidem facere ab officiis culpa error cum quisquam possimus, maiores nisi amet fugit quis, pariatur ex!</p> 
-        </div>
-      </article>
     </div>
-    
-    <div>
-      <section class="history">
-        <h2>History</h2>
-        <div class="content">
-        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aliquam voluptatem molestias mollitia consectetur possimus. Est quo consectetur provident ad non optio ipsum quas libero culpa nobis. Voluptas magnam vitae quos! Lorem ipsum dolor sit amet consectetur adipisicing elit.</p> 
-        <img src="images/ourteam.jpg" alt="boat with hulls">
-        <p>Laboriosam mollitia, veniam facere eligendi aspernatur adipisci, ea voluptate sequi quaerat, pariatur aperiam voluptas et provident. Eos voluptas ipsa expedita accusamus placeat? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos rem blanditiis aperiam odio corrupti? Magni, tenetur corrupti. Sunt eius quibusdam labore quam cupiditate pariatur debitis, expedita natus inventore enim blanditiis?</p>
-        </div>
-      </section>
-    </div>
+
+    <section class="newsletter">
+      <h2>Sign Up for Our Newsletter</h2>
+      <form action="newsletter.php" method="POST">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+        <button type="submit">Subscribe</button>
+      </form>
+    </section>
+
+    <section class="cta">
+      <h2>Plan Your Adventure</h2>
+      <p>Check out our exciting trips and start planning today!</p>
+      <a href="trips.html" class="cta-button">Explore Trips</a>
+    </section>
+
     <section class="adventures">
       <h2>Adventure Awaits You!</h2>
       <div class="gallery">
@@ -67,9 +68,10 @@
       </div>
     </section>
   </main>
+
   <footer>
     <div class="footer">
-      <p>&copy; 2024 ⛵ Novoa Rafting Company ⛵ Neyser Novoa </p>
+      <p>&copy; 2024 ⛵ Novoa Rafting Company ⛵ Neyser Novoa</p>
     </div>
     <nav class="sociallinks">
       <a href="https://www.instagram.com">
